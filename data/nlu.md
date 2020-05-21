@@ -132,61 +132,31 @@
 - my [iron bank](credit_card) credit card
 - my [justice bank](credit_card) credit card
 - my [gringots](credit_card) card
-- my [credit all](credit_card) card
 - my [iron bank](credit_card) card
-- my [justice bank](credit_card) card
 - towards my [gringots](credit_card) card
-- towards my [credit all](credit_card) card
 - towards my [iron bank](credit_card) card
-- towards my [justice bank](credit_card) card
 - for sunday
-- for friday
 - for tomorrow
 - for saturday
-- I want to pay the [minimum balance](payment_amount) on my [gringots](credit_card) credit card today
 - today
 
 ## intent:pay_cc
-- I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
-- I want to pay my credit card
-- I want to pay my card
-- Pay my card
-- Pay my [credit all](credit_card) card
-- I want to pay my [justice bank](credit_card) bill
-- Pay my discover
-- I want to pay my [iron bank](credit_card) bill
-- Pay my visa
-- I want to pay my visa bill
-- Pay my mastercard
 - I want to pay my MasterCard bill
-- I want to pay my credit card bill
 - I want to pay the [current balance](payment_amount) on my credit card
-- can you help me pay the [current balance](payment_amount) on my credit card
 - i want to pay off my [credit all](credit_card) credit card
-- i want to pay off my credit card
 - I want to pay off my credit card
-- i want to pay my credit card
 - i want to pay off my [gringots](credit_card) credit card
 - I want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card
-- i want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card
 - I want to pay $500 on my [gringots](credit_card) credit card on Sunday
-- I want to pay my [current balance](payment_amount) on my [gringots](credit_card) credit card today
 
 ## intent:search_transactions
 - how much did I spend at [Target](vendor_name) this week?
-- what is my typical spending at [Amazon](vendor_name)?
 - I want to check my spending history
-- how much did I spend at [Starbucks](vendor_name) last week?
 - I need to check my spending history
 - I want to check my spending
 - I want to check my spending history at [starbucks](vendor_name)
-- i want to check my spending history
 - i want to see my transaction history
-- I want to search my past transactions
 - can I search my transaction history
-- can I look at past transactions
-- I want to search my transactions with [amazon](vendor_name)
-- can i seem my transactions with [target](vendor_name)
 
 ## intent:thankyou
 - thank you goodbye
