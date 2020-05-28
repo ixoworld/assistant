@@ -31,3 +31,17 @@
     - form{"name": null}
 * success
     - utter_adding_fuel
+
+## Story from conversation with acd081aefbd143bc92f01e8e01eb4249 on May 28th 2020
+
+* fuel_my_entity
+    - utter_ask_fuel_entity_form_ixo_amount
+* inform{"number":2300}
+    - action_default_ask_affirmation
+* inform
+    - utter_project_entity_id
+    - utter_fee_description_freehosting
+    - utter_ask_confirm_hosting_offer
+    - utter_transaction_fee_ixo
+    - utter_fuel_credit_amount
+    - utter_fuel_credit_refund_policy
