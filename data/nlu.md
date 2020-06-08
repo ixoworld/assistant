@@ -8,6 +8,8 @@
 - yeah
 - yes please
 - yes plz
+- /affirm
+- ok
 
 ## intent:ask_transfer_charge
 - Will I be charged for transferring money
@@ -160,6 +162,7 @@
 - for saturday
 - I want to pay the [minimum balance](payment_amount) on my [gringots](credit_card) credit card today
 - today
+- 10000
 
 ## intent:pay_cc
 - I would like to pay the [minimum balance](payment_amount) on my [gringtos](credit_card) card
