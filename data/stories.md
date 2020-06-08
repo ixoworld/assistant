@@ -19,6 +19,7 @@
 * send_ixo
     - fuel_entity_form
     - form{"name":"fuel_entity_form"}
+    - form{"name":null}
     - utter_ask_fuel_entity_form_ixo_amount
     - utter_ask_affirm
     - utter_got_it
