@@ -2,8 +2,6 @@ session_config:
   session_expiration_time: 0
   carry_over_slots_to_new_session: true
 intents:
-- transfer_money:
-    use_entities: []
 - inform
 - pay_cc:
     use_entities: []
@@ -19,26 +17,12 @@ intents:
 - ask_transfer_charge
 - search_transactions:
     use_entities: []
-- check_balance
 - check_earnings:
     use_entities: []
 - fuel_my_entity:
     triggers: fuel_entity_form
-- fee
-- chitchat
 entities:
-- ixo_entity_id
 - ixo_entity
-- ixo_agent
-- ixo_wallet
-- currency
-- fee
-- token
-- payment_amount
-- credit_card
-- payment_date
-- vendor_name
-- number
 slots:
   PERSON:
     type: unfeaturized
@@ -63,7 +47,6 @@ slots:
     type: unfeaturized
   entity_id:
     type: unfeaturized
-    initial_value: did:ixo:Lup7hzAUVJpJHG8rVTFZQJ
   fee_amount:
     type: unfeaturized
   fee_currency:
@@ -109,7 +92,6 @@ slots:
     type: unfeaturized
   to_wallet_address:
     type: unfeaturized
-    initial_value: did:ixo:Lup7hzAUVJpJHG8rVTFZQJ
   transaction_fee:
     type: unfeaturized
     initial_value: 10
@@ -266,6 +248,8 @@ responses:
       after the transfer
   utter_ask_affirm:
   - text: 'Is this correct? Buttons: Yes, No'
+  utter_ask_ixo_fuel_amount:
+  - text: How many IXO credits would you like to add
 actions:
 - utter_project_entity_id
 - utter_cell_entity_id
@@ -321,11 +305,8 @@ actions:
 - utter_cc_pay_cancelled
 - utter_account_balance
 - utter_changed_account_balance
-- utter_ask_fuel_entity_form
 - utter_add_fuel
 - utter_ask_affirm
+- utter_ask_ixo_fuel_amount
 forms:
-- cc_payment_form
-- transfer_form
-- transact_search_form
 - fuel_entity_form
