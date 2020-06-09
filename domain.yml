@@ -28,14 +28,14 @@ slots:
     type: unfeaturized
   currency:
     type: unfeaturized
-    initial_value: IXO
+    initial_value: "IXO"
   entity_id:
     type: unfeaturized
   fee_amount:
     type: unfeaturized
   fee_currency:
     type: unfeaturized
-    initial_value: Euros
+    initial_value: "Euros"
   fee_description:
     type: unfeaturized
   fee_id:
@@ -74,7 +74,7 @@ slots:
     initial_value: 10
   transaction_fee_currency:
     type: unfeaturized
-    initial_value: IXO
+    initial_value: "IXO"
   vendor_name:
     type: unfeaturized
 responses:
