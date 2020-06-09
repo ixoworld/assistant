@@ -3,8 +3,7 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - inform
-- pay_cc:
-    use_entities: []
+- pay_cc
 - greet
 - goodbye
 - affirm
@@ -15,13 +14,9 @@ intents:
 - success
 - thankyou
 - ask_transfer_charge
-- search_transactions:
-    use_entities: []
-- check_earnings:
-    use_entities: []
-- fuel_my_entity:
-    triggers: fuel_entity_form
-entities:
+- search_transactions
+- check_earnings
+- fuel_my_entity
 - ixo_entity
 slots:
   PERSON:
@@ -77,7 +72,6 @@ slots:
     initial_value: 10
   offer_description:
     type: unfeaturized
-    initial_value: 12-months standard hosting
   payment_amount:
     type: unfeaturized
   payment_amount_type:
@@ -251,9 +245,11 @@ responses:
   utter_ask_ixo_fuel_amount:
   - text: How many IXO credits would you like to add
 actions:
+- action_account_balance
 - utter_project_entity_id
 - utter_cell_entity_id
 - utter_currency
+- utter_add_fuel
 - utter_wallet_balance_pre
 - utter_wallet_balance_post
 - utter_fee_type
@@ -305,7 +301,6 @@ actions:
 - utter_cc_pay_cancelled
 - utter_account_balance
 - utter_changed_account_balance
-- utter_add_fuel
 - utter_ask_affirm
 - utter_ask_ixo_fuel_amount
 forms:
