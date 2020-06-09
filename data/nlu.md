@@ -8,6 +8,8 @@
 - yeah
 - yes please
 - yes plz
+- fund
+- ok
 
 ## intent:ask_transfer_charge
 - how much is the transfer fee
@@ -24,7 +26,6 @@
 - Pay for my cell
 - fuel my entity
 - I would like to fuel this project with IXO tokens
-- fund
 - fuel
 - fuel_my_entities
 - Fuel project
@@ -35,6 +36,7 @@
 - fuel my project
 - I would like to fuel my project
 - This I want to fuel my {ixo_entity}
+- Buy ixo
 
 ## intent:check_earnings
 - how much was deposited in January
@@ -101,3 +103,6 @@
 - thanks
 - thanks goodbye
 - thank you and good bye
+
+## intent:ixo_entity
+- Confirm my {ixo_entity} id
